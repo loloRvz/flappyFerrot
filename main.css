@@ -1,0 +1,27 @@
+canvas{
+  border: 2px solid #222222;
+  background-color: #eeeeee;
+  display: block;
+  margin: auto;
+}
+
+@font-face {
+    font-family: flappyBirdy;
+    src: url(assets/flappyBirdy.ttf);
+}
+
+@font-face {
+    font-family: numberFont;
+    src: url(assets/numberFont.ttf);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#restartButton{
+  position = relative;
+  left = 40%;
+  top = 40%;
+}
